@@ -1,0 +1,70 @@
+{% extends 'elections/base.html'%}
+{% load static %}
+{% block content %}
+
+          <!-- Another row -->
+          <div class="row">
+            <div class="col-lg-12 ">
+                  <h1 class="heading">Meet The Candidates</h1>
+                  <div class="card-wrapper">
+                    <div class="card">
+                          <img src="{% static 'images/card-bg.png' %}" alt="card background" class="card-img">
+                          <img src="{% static 'images/img1.png' %}" alt="profile image" class="profile-img">
+                          <h1>Kizza Besigye</h1>
+                          <p class="position">President</p>
+                          <p class="about">
+                                He is a Medical Doctornd politician
+                          </p>
+                          <a href="#" class="btn">RESULTS</a>
+                          <ul class="standing-results">
+                            <!-- <li><a href="#"><i class="fas fa-poll  polls-display"></i></a></li> -->
+                          </ul>
+                          <h1 class="results">40%</h1>
+                    </div>
+
+                    <div class="card">
+                          <img src="{% static 'images/card-bg.png' %}" alt="card background" class="card-img">
+                          <img src="{% static 'images/img1.png' %}" alt="profile image" class="profile-img">
+                          <h1>Yoweri Museveni</h1>
+                          <p class="position">President</p>
+                          <p class="about">
+                          He is the incumbent President
+                          </p>
+                          <a href="#" class="btn">RESULTS</a>
+                          <ul class="standing-results">
+                            <!-- <li><a href="#"><i class="fas fa-poll  polls-display"></i></a></li> -->
+                          </ul>
+                          <h1 class="results">28%</h1>
+                    </div>
+                    <div class="card">
+                      <img src="{% static 'images/card-bg.png' %}" alt="card background" class="card-img">
+                      <img src="{% static 'images/img1.png' %}" alt="profile imge" class="profile-img">
+                      <h1>Kyagulanyi Ssentamu</h1>
+                      <p class="position">President</p>
+                      <p class="about">
+                      Muscian turned Politician
+                    </p>
+                    <a href="#" class="btn">RESULTS</a>
+                    <ul class="standing-results">
+                      <!-- <li><a href="#"><i class="fas fa-poll  polls-display"></i></a></li> -->
+                    </ul>
+                      <h1 class="results">30%</h1>
+                    </div>
+                    <div class="card">
+                        <img src="{% static 'images/card-bg.png' %}" alt="card background" class="card-img">
+                        <img src="{% static 'images/img1.png' %}" alt="profile image" class="profile-img">
+                        <h1>Mbidde Mukasa</h1>
+                        <p class="position">President</p>
+                        <p class="about">
+                        EALA MP Legislater
+                        </p>
+                        <a href="#" class="btn">RESULTS</a>
+                        <ul class="standing-results">
+                          <!-- <li><a href="#"><i class="fas fa-poll  polls-display"></i></a></li> -->
+                        </ul>
+                        <h1 class="results">2%</h1>
+                    </div>
+                  </div>
+            </div>
+          </div>
+{% endblock content %}
